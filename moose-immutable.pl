@@ -18,6 +18,8 @@ sub execute {
     return +{ name => $self->name, age => $self->age };
 }
 
+__PACKAGE__->meta->make_immutable;
+
 1;
 
 package main;
