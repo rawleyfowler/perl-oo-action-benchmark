@@ -32,6 +32,8 @@ say 'MOO + TYPES TIME   : ',
   time_it( $Config{perlpath}, getcwd() . '/moo-typed.pl' ), 'ms';
 say 'MOOSE TIME         : ',
   time_it( $Config{perlpath}, getcwd() . '/moose.pl' ), 'ms';
+say 'MOOSE IMMU TIME    : ',
+  time_it( $Config{perlpath}, getcwd() . '/moose-immutable.pl' ), 'ms';
 say 'MOOSE + TYPES TIME : ',
   time_it( $Config{perlpath}, getcwd() . '/moose-typed.pl' ), 'ms';
 say 'RUBY TIME          : ', time_it( 'ruby', getcwd() . '/ruby.rb' ),   'ms';
