@@ -28,6 +28,8 @@ go run golang.go  0.13s user 0.15s system 78% cpu 0.362 total
 perl perl.pl  1.72s user 0.01s system 98% cpu 1.759 total
 ✗ time perl corinna.pl
 perl corinna.pl  2.99s user 0.02s system 99% cpu 3.031 total
+✗ time perl moose-typed.pl
+perl moose-typed.pl  54.44s user 0.14s system 99% cpu 54.761 total
 ✗ time ruby ruby.rb
 ruby ruby.rb  0.55s user 0.03s system 98% cpu 0.587 total
 ✗ time python3 python.py
