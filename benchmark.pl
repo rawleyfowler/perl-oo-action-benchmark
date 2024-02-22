@@ -40,3 +40,6 @@ say 'RUBY TIME          : ', time_it( 'ruby', getcwd() . '/ruby.rb' ), 'ms';
 say 'RAKU TIME          : ', time_it( 'raku', getcwd() . '/raku.raku' ), 'ms';
 say 'GOLANG TIME        : ', time_it( 'go', 'run', getcwd() . '/golang.go' ), 'ms';
 say 'PYTHON TIME        : ', time_it( 'python', getcwd() . '/python.py' ), 'ms';
+say 'NQP TIME           : ', time_it( 'nqp', getcwd() . '/nqp.nqp' ), 'ms';
+say 'PHP TIME           : ', time_it( 'php', getcwd() . '/php.php' ), 'ms';
+say 'JS TIME            : ', time_it( 'node', getcwd() . '/js.js' ), 'ms';
